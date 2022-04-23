@@ -1,0 +1,22 @@
+.about-page {
+  margin-top: 50px;
+}
+.about-page .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-page .container div {
+  min-width: calc((100% / 2) - 20px);
+  margin: 10px;
+  display: inline-block;
+  background-color: var(--bg-color);
+  padding: 10px;
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+  .about-page .container div {
+    min-width: 100%;
+    margin: 10px 0;
+  }
+}

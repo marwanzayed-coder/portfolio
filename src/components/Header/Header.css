@@ -1,0 +1,78 @@
+header {
+  background-color: var(--bg-color);
+}
+header .container {
+  height: 100px;
+}
+header .container .logo img {
+  width: 100%;
+  height: 3rem;
+}
+header .container .links {
+  position: relative;
+}
+header .container .links .divider {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 10px 0;
+  cursor: pointer;
+  direction: rtl;
+}
+header .container .links .divider.open span {
+  width: 40px !important;
+}
+header .container .links .divider span {
+  width: 40px;
+  height: 2px;
+  background-color: var(--text-color);
+  display: inline-block;
+  margin: 3px 0;
+}
+header .container .links .divider span:nth-child(1) {
+  width: 15px;
+}
+header .container .links .divider span:nth-child(2) {
+  width: 30px;
+}
+
+header .container .links .divider:hover span:nth-child(1) {
+  width: 40px;
+}
+header .container .links .divider:hover span:nth-child(2) {
+  width: 40px;
+}
+header .container .links ul {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  opacity: 0;
+  z-index: -1;
+  visibility: hidden;
+}
+header .container .links ul li a {
+  color: var(--text-color);
+  padding: 5px;
+  display: inline-block;
+}
+header .container .links ul li a:hover {
+  color: var(--main-color);
+}
+header .container .links ul button {
+  color: var(--text-color);
+  border-radius: 5px;
+  border: 1px solid var(--main-color);
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+  background: transparent;
+  cursor: pointer;
+}
+header .container .links ul button:hover {
+  background-color: var(--main-color);
+}

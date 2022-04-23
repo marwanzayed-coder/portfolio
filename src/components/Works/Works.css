@@ -1,0 +1,21 @@
+.works-page {
+  margin-top: 50px;
+}
+.works-page .container h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+.works-page .container .row .item {
+  padding: 20px;
+}
+.works-page .container .row .item a {
+  color: var(--text-color);
+  border-radius: 20px;
+  border: 1px solid var(--main-color);
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+}
+.works-page .container .row .item a:hover {
+  background-color: var(--main-color);
+}

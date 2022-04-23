@@ -1,0 +1,16 @@
+.skills-page {
+  margin-top: 50px;
+}
+.skills-page .container h2 {
+  font-size: 34px;
+  margin: 20px;
+}
+.skills-page .container .row div {
+  font-size: 1.5em;
+}
+@media (max-width: 768px) {
+  .skills-page .container .row div {
+    min-width: 100%;
+    margin: 10px 0;
+  }
+}
