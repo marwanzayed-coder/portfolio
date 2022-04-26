@@ -12,7 +12,7 @@ const About = () => {
         <div>City: Cairo</div>
         <div>Neighborhood: Helwan</div>
         <div>Experience: 1 Year</div>
-        <div>Skills: HTML, CSS, JS, Nodejs, Express</div>
+        <div>Skills: HTML, CSS, JS, Nodejs, Express, React</div>
       </div>
     </section>
   );
